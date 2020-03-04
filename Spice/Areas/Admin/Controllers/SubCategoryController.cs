@@ -143,30 +143,23 @@ namespace Spice.Areas.Admin.Controllers
             return View(modelVM);
         }
 
-        //Get - Details
+        //GET Details
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            var subCategory = await _db.SubCategory.SingleOrDefaultAsync(m => m.Id == id);
-
+            var subCategory = await _db.SubCategory.Include(s => s.Category).SingleOrDefaultAsync(m => m.Id == id);
             if (subCategory == null)
             {
                 return NotFound();
             }
 
-            SubCategoryAndCategoryViewModel model = new SubCategoryAndCategoryViewModel()
-            {
-                CategoryList = await _db.Category.ToListAsync(),
-                SubCategory = subCategory,
-                SubCategoryList = await _db.SubCategory.OrderBy(p => p.Name).Select(p => p.Name).Distinct().ToListAsync()
-            };
-            return View(model);
+            return View(subCategory);
         }
 
-        //Get - Delete
+        //GET Delete
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -174,53 +167,24 @@ namespace Spice.Areas.Admin.Controllers
                 return NotFound();
             }
             var subCategory = await _db.SubCategory.Include(s => s.Category).SingleOrDefaultAsync(m => m.Id == id);
-
             if (subCategory == null)
             {
                 return NotFound();
             }
 
-            SubCategoryAndCategoryViewModel model = new SubCategoryAndCategoryViewModel()
-            {
-                CategoryList = await _db.Category.ToListAsync(),
-                SubCategory = subCategory,
-                SubCategoryList = await _db.SubCategory.OrderBy(p => p.Name).Select(p => p.Name).Distinct().ToListAsync()
-            };
-            return View(model);
+            return View(subCategory);
         }
 
-        //Post - Delete
-        [HttpPost]
+        //POST Delete
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(SubCategoryAndCategoryViewModel model)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (ModelState.IsValid)
-            {
-                var doesSubCategoryExist = _db.SubCategory.Include(s => s.Category).Where(s => s.Name == model.SubCategory.Name && s.Category.Id == model.SubCategory.CategoryId);
+            var subCategory = await _db.SubCategory.SingleOrDefaultAsync(m => m.Id == id);
+            _db.SubCategory.Remove(subCategory);
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
 
-                if (doesSubCategoryExist.Count() > 0)
-                {
-                    //Error
-                    StatusMessage = "Error : SubCategory exists under " + doesSubCategoryExist.First().Category.Name + " category. Please user another name.";
-                }
-                else
-                {
-                    var subCatFromDb = await _db.SubCategory.FindAsync(model.SubCategory.Id);
-                    subCatFromDb.Name = model.SubCategory.Name;
-
-                    await _db.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-            }
-            SubCategoryAndCategoryViewModel modelVM = new SubCategoryAndCategoryViewModel()
-            {
-                CategoryList = await _db.Category.ToListAsync(),
-                SubCategory = model.SubCategory,
-                SubCategoryList = await _db.SubCategory.OrderBy(p => p.Name).Select(p => p.Name).ToListAsync(),
-                StatusMessage = StatusMessage
-            };
-            //modelVM.SubCategory.Id = id;
-            return View(modelVM);
         }
     }
 }
