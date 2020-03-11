@@ -486,3 +486,6 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admi
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Delete.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Index.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Create.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Edit.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
