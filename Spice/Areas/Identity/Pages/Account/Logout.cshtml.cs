@@ -32,11 +32,12 @@ namespace Spice.Areas.Identity.Pages.Account
             _logger.LogInformation("User logged out.");
             if (returnUrl != null)
             {
-                return LocalRedirect(returnUrl);
+                //return LocalRedirect(returnUrl);
+                return RedirectToPage("Logout");
             }
             else
             {
-                return RedirectToPage();
+                return RedirectToPage("Logout");
             }
         }
     }

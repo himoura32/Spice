@@ -490,3 +490,4 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.Views.pdb
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csproj.CopyComplete
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.dll
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.pdb
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
