@@ -393,10 +393,9 @@ C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\win-x86
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csprojAssemblyReference.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.Manifest.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.xml
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.AssemblyInfoInputs.cache
@@ -427,6 +426,8 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admi
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
@@ -491,3 +492,6 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.Views.pdb
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csproj.CopyComplete
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.dll
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.pdb
+C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Stripe.net.dll
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
