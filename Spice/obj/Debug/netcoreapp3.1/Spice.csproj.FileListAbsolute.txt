@@ -324,6 +324,7 @@ C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Microsoft.Visual
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Stripe.net.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -396,6 +397,8 @@ C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\win\lib
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csprojAssemblyReference.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.Manifest.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.xml
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.AssemblyInfoInputs.cache
@@ -431,6 +434,9 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Cust
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\Confirm.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\ManageOrder.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\OrderHistory.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
@@ -478,8 +484,10 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shar
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DeleteAndBackToListButton.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DetailsAndBackToListButton.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_IndividualOrderDetails.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OrderStatus.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_StatusMessage.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPartial.cshtml.g.cs
@@ -492,6 +500,3 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.Views.pdb
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csproj.CopyComplete
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.dll
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.pdb
-C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Stripe.net.dll
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
