@@ -397,8 +397,6 @@ C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\runtimes\win\lib
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csprojAssemblyReference.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.Manifest.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\staticwebassets\Spice.StaticWebAssets.xml
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cache
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.RazorAssemblyInfo.cs
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.AssemblyInfoInputs.cache
@@ -501,3 +499,7 @@ C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.Views.pdb
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.csproj.CopyComplete
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.dll
 C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.pdb
+C:\Users\shawn\source\repos\Spice\Spice\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Spice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shawn\source\repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs

@@ -52,6 +52,12 @@ namespace Spice
                 options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
             });
 
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = "628631374359060";
+                facebookOptions.AppSecret = "1f4d1ed6b356119a9e9236474c7ee996";
+            });
+
             services.AddSession(options =>
             {
                 options.Cookie.IsEssential = true;
